@@ -1,0 +1,248 @@
+body{
+  background: #04011C;
+  font-family: 'Space Grotesk';
+}
+.logo{
+  height: 36px;
+  padding-left: 25px;
+}
+
+.navbar{
+  padding-top: 30px;
+}
+
+
+#navbarNav{
+  justify-content: center;
+  padding-left: 50px;
+
+}
+.nav-item{
+  padding: 10px;
+  
+
+  
+}
+
+.nav-link{
+  padding: 5px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: whitesmoke;
+  font-size: 17px;
+}
+.nav-link:hover{
+  background-color: #2f2f46bf;
+  transition: 1s;
+  
+}
+
+.nav-search{
+  padding-top: 20px;
+  
+}
+.nav-search i{
+  color: whitesmoke;
+}
+.nav-btn{
+  margin-left: 20px;
+  padding: 15px 35px;
+  background-color: #363449;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: 700;
+ 
+}
+.nav-btn:hover{
+  background-color: whitesmoke;
+  color: black;
+  transition: 2s;
+}
+.dv{
+  display: inline-flex;
+  padding-right: 30px;
+}
+
+
+/* section-1 */
+
+.sec-1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: auto;
+  width:100%;
+  /* background-color: aqua; */
+  text-align: center;
+  padding-top: 150px;
+  
+  
+
+}
+
+.sec-1 .heading1{
+  /* background-color: red; */
+  
+  width: 90%;
+  color: whitesmoke;
+}
+.sec-1 .heading1 h1{
+  font-family: 'Space Grotesk';
+  font-size: 120px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.buyimg{
+  width: 133px;
+  height: 106px;
+  margin-left: 20px;
+
+}
+.line2{
+  width: 100%;
+}
+.left{
+  width:69%;
+  /* background-color: chartreuse; */
+  float: left;
+}
+.right{
+  width:31%;
+  /* background-color:deeppink; */
+  float: left;
+}
+
+
+
+.heading2{
+  text-align: left;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: 'Space Grotesk';
+  -webkit-text-stroke-width: .1px;
+  color: #FFFFFF00;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.para1{
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+  text-align: left;
+  padding-top: 30px;
+  font-weight:bold;
+  line-height: 1.77em;
+
+}
+
+.line3{
+  width:100%;
+  /* background-color: darkred; */
+  display: inline-block;
+  padding-bottom: 30px;
+}
+.spring{
+  width: 133px;
+  height: 133px;
+}
+
+.explore{
+  background-color:#7040F2 ;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+ 
+  
+}
+.explore:hover{
+  background-color: whitesmoke;
+  color: black;
+  transition: 2s;
+}
+
+.counter{
+  padding-top:120px ;
+}
+
+.counter-col{
+  padding-bottom: 60px;
+  font-family: 'Space Grotesk';
+}
+.counter-col h2{
+  font-size: 40px;
+  color: #7040F2;
+
+}
+
+.divider{
+  background-color: #363449;
+  width:100%;
+  height: 1px;
+  
+  margin-bottom: 300px;
+}
+
+
+
+
+/* section-2 */
+
+
+
+.main{
+  background-color: transparent;
+  background-image: linear-gradient(-90deg, #7040F2 0%, #AE8FFF 100%);
+  border-radius: 10px;
+  padding: 150px 10px;
+  color: whitesmoke;
+  
+}
+.start-heading {
+  /* border-right: 2px solid white; */
+  display: inline-block;
+  padding-left: 15px;
+}
+.read{
+  padding: 15px 35px;
+  background-color: whitesmoke;
+  color:black;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: 'Space Grotesk';
+  border: 0px;
+  
+}
+.start-heading h1{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  
+}
+.start-heading h6{
+  font-weight: 700;
+}
+
+
+.www{
+  float: right;
+  width:63%;
+  
+  
+  
+
+}
+
+.sec-2-divider{
+  width:80%;
+  
+  border-bottom:1px solid whitesmoke;
+  padding: 10px;
+  
+}
+
+.www .col-6 p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
