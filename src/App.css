@@ -270,6 +270,12 @@ background: linear-gradient(90deg, rgb(32, 24, 51) 10%, rgba(112,64,242,1) 51%, 
   
   
 }
+
+.nav-search::marker {
+  display: none !important;
+}
+
+
 .logo-img-1{
   width: 52px;
   height: 36px;
@@ -546,21 +552,73 @@ background: linear-gradient(90deg, rgb(18, 16, 22) 5%, rgba(112,64,242,1) 51%, r
 
 
 .big-image{
-  padding-top: 90px;
-}
-.big-image .col-12{
-  width: 100%;
-  background: rgb(57,49,75);
-  background: linear-gradient(90deg, rgb(132, 109, 187) 10%, rgba(112,64,242,1) 51%, rgb(147, 108, 237) 91%);
-  justify-content: center;
+  margin-top: 90px;
+  background-image: url("https://wgl-demo.net/nico/wp-content/uploads/2022/04/faq-section-1.jpg");
   display: flex;
-  padding-top: 30px;
+  justify-content: center;
+  /* overflow: hidden; */
+  /* flex-direction: column; */
+}
+
+.big-image .col-2{
+  /* border: 2px solid white; */
+  /* padding-left: -350px; */
+  /* overflow-x:visible; */
+  /* background-color: red; */
+  
+}
+.first-big-img{
+  margin-left: 60px;
+  padding-top: 50px;
+}
+.second-big-img{
+  margin-left: -120px;
+  padding-top: 80px;
+}
+.third-big-img{
+  padding-top: 150px;
+}
+
+.big-image .col-8{
+  /* width: auto; */
+  /* justify-content: center;
+  display: flex; */
+  /* padding-top: 30px; */
+  /* border: 2px solid white; */
+  /* justify-content: start;
+  text-align: justify; */
+  /* width: 100%; */
+  background-image: url(./assets/home3-section-1-removebg-preview.png);
+  background-size: 1440px;
+  padding-top: 600px;
+  background-position: center center;
+  margin: 0;
+  /* background-color: RED; */
 }
 
 .bari-image{
-  width: 1440px;
+  width: 1440PX ;
   height: auto;
+  border: 2px solid purple;
   
   /* margin-left: -100px; */
   
+}
+
+.firstimg{
+display: inline-block;
+background-color: red;
+padding-left: 30%;
+overflow: hidden;
+
+
+}
+
+
+/* sec-6 */
+
+
+
+.sec-6{
+ padding-top: 60px; 
 }

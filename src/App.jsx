@@ -3,6 +3,8 @@ import buyimg from "./assets/buyimg.jpg"
 import spring from "./assets/spring.png"
 import { useState } from "react";
 import bigImage from "./assets/home3-section-1-removebg-preview.png"
+import React, { Component } from 'react';
+import Carousel from 'react-elastic-carousel';
 
 
 
@@ -109,7 +111,7 @@ function App() {
           <div className="navdv">
             <li className="nav-search">
               <a href="#" >
-                <i className="fa-solid fa fa-search"></i>
+                <i className="fa fa-search"></i>
               </a>
             </li>
             <button className="nav-btn">Get in Touch</button>
@@ -174,680 +176,680 @@ function App() {
 
       <div className="container sec-3">
 
-<div className="row links">
-  <div className="bg-heading"><h1> NFTs</h1></div>
-  <div className="front-heading"><h1>Most Popular NFTs</h1></div>
-</div>
-
-<div className="row lnks">
-  <div className="col">
-    <ul>
-    
-      <li><a href="#" >
-        ALL
-      </a>  </li>
-   
-
-      <li><a href="#" >
-        GUTTER CAT
-      </a></li>
-
-      <li><a href="#" >
-        HAPE PRIME
-      </a></li>
-
-      <li><a href="#" >
-        LAZY LIONS
-      </a></li>
-      
-      <li><a href="#" >
-        PEACEFUL APE
-      </a></li>
-    </ul>
-  </div>
-</div>
-
-<div className="row cards">
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/8170.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">HAPE #8170</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>6</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">HAPE PRIME</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-
-<div className="overlay">
-<div className="mmm">
-<div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">HAPE #8170</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>6</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">HAPE PRIME</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn">
-  <button className="overlayBtn" >Buy Products</button>
-  </div>
-  </div>
-  </div>
-</div>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/ingjyaptva7le7l4qtf4jjkvlj0-95brxq8nsjtt1z70zs7zqgxjpldijc-_wpzj_wfoc9ua9wzxlao7qv1yxc3jn6fe7k7brusv.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Cat #1046</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.17</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">GUTTER CAT</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-  <div className="overlay">
-  <div className="mmm">
-  <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Cat #1046</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.17</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">GUTTER CAT</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn">
-  <button className="overlayBtn" >Buy Products</button>
-  </div>
-  </div>
-  </div>
-  </div>
-</div> 
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/e3t8avw0cqagrkn6yw-dstmseet0psxggjl1em8mrskry_9x5-yfhln3d-or-4ewkm9yuwscbzph8_fiblrf39wnjcwvvmgvgbqkkm4.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #215</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #215</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
-  </div>
-</div> 
-</div>
-  </div>
-
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/lsf_e9u5o41fe-9kjaa8cjouev-hdu4pup-lmdpzlgzdvzge2c_fbzng8n6wmbbist4434f3lrc4co3s7gvrbv7hetnzroqfreslkam.jpg" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Lions #30</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>5.2</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">LAZY LIONS</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Lions #30</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>5.2</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">LAZY LIONS</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
-  </div>
-</div> 
-</div>
-  </div>
-
-  {/* second row */}
-
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/mmrdznyp5ottz7sbkioqglpsou-6r43itksijzneke4zy20wtzhcmhtqjojh_gqewu3mftwohjlxcd7od2yu_8cgfa_x906awpzrmw.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #231</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #231</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
-  </div>
-</div>
-</div>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/khl8oid96pptec5vxkgjmtaidfjczve1resda4t_87obrnj4f6fv7fbzzrtc1c3dxynacrc_kroekgfda5o-ytsvpywna61m8a4nxf4.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Cat #279</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.25</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">GUTTER CAT</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Cat #279</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.25</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">GUTTER CAT</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
-  </div>
-</div> 
-</div>
-  </div>
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/hxpxqeoxhkoape7xkxsi5pcy1-g__om7f4iaqhxcgi7fclsyoqlnqvjtedfbuvbmlykbxft9fcyxru09ix47bb1nk8c14ld0vwlvkg.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #232</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #232</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
-  </div>
-</div>
-</div>
-  </div>
-
-  <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
- <div className="mmm"> 
-    <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/nvjposhjckbwptc0b-erk3bbmha_azcwfz-te0frqiqljfxuqlzanw41cbx2hpbpldqjbkxhqapx5ayxx-dyhp4esozrrcrgzympja.png" alt="" />
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #230</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  </div>
-</div> 
-<div className="overlay">
-<div className="mmm"> 
-    <div className="details">
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-
-
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="first-title">Ape #230</h5>
-        <i className="fa fa-diamond">
-
-        </i>
-        <span>0.04</span>
-      </div>
-    </div>
-   
-    <div className="title-divider"></div>
-
-    
-    <div className="title">
-      <div className="dv">
-
-        <h5 className="last-title">PEACEFUL APE</h5>
-        <i >
-
-        </i>
-      
-        <span className="fa fa-heart" ></span>
-      </div>
-  </div>
-  
-  </div>
-</div>
-</div>
-  </div>
-
-
-</div>
-<div className="sec-3-btn">
-  <button className="explore">Explore All NFTs</button>
-  </div>
+        <div className="row links">
+          <div className="bg-heading"><h1> NFTs</h1></div>
+          <div className="front-heading"><h1>Most Popular NFTs</h1></div>
+        </div>
+
+        <div className="row lnks">
+          <div className="col">
+            <ul>
+
+              <li><a href="#" >
+                ALL
+              </a>  </li>
+
+
+              <li><a href="#" >
+                GUTTER CAT
+              </a></li>
+
+              <li><a href="#" >
+                HAPE PRIME
+              </a></li>
+
+              <li><a href="#" >
+                LAZY LIONS
+              </a></li>
+
+              <li><a href="#" >
+                PEACEFUL APE
+              </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="row cards">
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/8170.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">HAPE #8170</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>6</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">HAPE PRIME</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">HAPE #8170</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>6</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">HAPE PRIME</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn">
+                    <button className="overlayBtn" >Buy Products</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/ingjyaptva7le7l4qtf4jjkvlj0-95brxq8nsjtt1z70zs7zqgxjpldijc-_wpzj_wfoc9ua9wzxlao7qv1yxc3jn6fe7k7brusv.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Cat #1046</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.17</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">GUTTER CAT</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+              <div className="overlay">
+                <div className="mmm">
+                  <div className="details">
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+
+
+                    <div className="title">
+                      <div className="dv">
+
+                        <h5 className="first-title">Cat #1046</h5>
+                        <i className="fa fa-diamond">
+
+                        </i>
+                        <span>0.17</span>
+                      </div>
+                    </div>
+
+                    <div className="title-divider"></div>
+
+
+                    <div className="title">
+                      <div className="dv">
+
+                        <h5 className="last-title">GUTTER CAT</h5>
+                        <i >
+
+                        </i>
+
+                        <span className="fa fa-heart" ></span>
+                      </div>
+                    </div>
+                    <div className="overlay-btn">
+                      <button className="overlayBtn" >Buy Products</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/e3t8avw0cqagrkn6yw-dstmseet0psxggjl1em8mrskry_9x5-yfhln3d-or-4ewkm9yuwscbzph8_fiblrf39wnjcwvvmgvgbqkkm4.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Ape #215</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.04</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">PEACEFUL APE</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Ape #215</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>0.04</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">PEACEFUL APE</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/lsf_e9u5o41fe-9kjaa8cjouev-hdu4pup-lmdpzlgzdvzge2c_fbzng8n6wmbbist4434f3lrc4co3s7gvrbv7hetnzroqfreslkam.jpg" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Lions #30</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>5.2</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">LAZY LIONS</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Lions #30</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>5.2</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">LAZY LIONS</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* second row */}
+
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/mmrdznyp5ottz7sbkioqglpsou-6r43itksijzneke4zy20wtzhcmhtqjojh_gqewu3mftwohjlxcd7od2yu_8cgfa_x906awpzrmw.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Ape #231</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.04</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">PEACEFUL APE</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Ape #231</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>0.04</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">PEACEFUL APE</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/khl8oid96pptec5vxkgjmtaidfjczve1resda4t_87obrnj4f6fv7fbzzrtc1c3dxynacrc_kroekgfda5o-ytsvpywna61m8a4nxf4.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Cat #279</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.25</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">GUTTER CAT</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Cat #279</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>0.25</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">GUTTER CAT</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/hxpxqeoxhkoape7xkxsi5pcy1-g__om7f4iaqhxcgi7fclsyoqlnqvjtedfbuvbmlykbxft9fcyxru09ix47bb1nk8c14ld0vwlvkg.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Ape #232</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.04</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">PEACEFUL APE</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Ape #232</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>0.04</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">PEACEFUL APE</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+                  <div className="overlay-btn"> <button className="overlayBtn" >Buy Products</button> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 card">
+            <div className="mmm">
+              <img className="card-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/05/nvjposhjckbwptc0b-erk3bbmha_azcwfz-te0frqiqljfxuqlzanw41cbx2hpbpldqjbkxhqapx5ayxx-dyhp4esozrrcrgzympja.png" alt="" />
+              <div className="details">
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="first-title">Ape #230</h5>
+                    <i className="fa fa-diamond">
+
+                    </i>
+                    <span>0.04</span>
+                  </div>
+                </div>
+
+                <div className="title-divider"></div>
+
+
+                <div className="title">
+                  <div className="dv">
+
+                    <h5 className="last-title">PEACEFUL APE</h5>
+                    <i >
+
+                    </i>
+
+                    <span className="fa fa-heart" ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="overlay">
+              <div className="mmm">
+                <div className="details">
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+                  <span className="fa fa-star checked"></span>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="first-title">Ape #230</h5>
+                      <i className="fa fa-diamond">
+
+                      </i>
+                      <span>0.04</span>
+                    </div>
+                  </div>
+
+                  <div className="title-divider"></div>
+
+
+                  <div className="title">
+                    <div className="dv">
+
+                      <h5 className="last-title">PEACEFUL APE</h5>
+                      <i >
+
+                      </i>
+
+                      <span className="fa fa-heart" ></span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div className="sec-3-btn">
+          <button className="explore">Explore All NFTs</button>
+        </div>
       </div>
 
       <div className="container-fluid sec-2">
@@ -894,43 +896,96 @@ function App() {
           <div className="col-lg-2 col-md-4 col-sm-6"><img className="logo-img-6 logo-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/04/clients_6-3.png" alt="" /></div>
         </div>
         <div className="sec-2-end">
-        <div className="sec-2-end-divider"></div>
-       </div>
+          <div className="sec-2-end-divider"></div>
+        </div>
       </div>
 
       <div className="container sec-4">
-      <div className="row links">
-  <div className="bg-heading "><h1 > Categories</h1></div>
-  <div className="front-heading"><h1>Browse by Category</h1></div>
-</div>
-  <div className="browse-para"><p>The right way to help investors is by integrating all reward programs into the platform</p></div>
-    
-    <div className="row collections">
-      <div className="col"><h1>Art / Music / Photo / Collectibles / Trading Cards / Sport / Utility /</h1></div>
-      <div className="sec-3-btn sec-4-browse-btn" >
-  <button className="explore">Browse All Categories</button>
-  </div>
-    </div>
+        <div className="row links">
+          <div className="bg-heading "><h1 > Categories</h1></div>
+          <div className="front-heading"><h1>Browse by Category</h1></div>
+        </div>
+        <div className="browse-para"><p>The right way to help investors is by integrating all reward programs into the platform</p></div>
+
+        <div className="row collections">
+          <div className="col"><h1>Art / Music / Photo / Collectibles / Trading Cards / Sport / Utility /</h1></div>
+          <div className="sec-3-btn sec-4-browse-btn" >
+            <button className="explore">Browse All Categories</button>
+          </div>
+        </div>
 
 
       </div>
 
       <div className="container-fluid sec-5">
         <div className="row big-image ">
-          <div className="col-12">
-            <img className="bari-image" src={bigImage} alt="" />
+          <div className="col-2">
+
+            <img className="first-big-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/04/faq-shape-1.png" alt="" />
           </div>
+
+          <div className="col-8">
+
+          </div>
+          <div className="col-2">
+            <div className="row">
+              <div className="col-12">
+                <img className="second-big-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/04/faq-shape-2.png" alt="" />
+
+              </div>
+              <div className="col-12">
+                <img className="third-big-img" src="https://wgl-demo.net/nico/wp-content/uploads/2022/04/faq-shape-3.png" alt="" />
+
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
       </div>
 
-    
-      
+      <div className="container sec-6">
+        <div className="row links">
+          <div className="bg-heading "><h1 > News</h1></div>
+          <div className="front-heading"><h1>Trending Crypto Market News</h1></div>
+        </div>
+        <div className="browse-para"><p>The right way to help investors is by integrating all reward programs into the platform</p></div>
+
+
+        <div className="row">
+
+          <Slider />
+        </div>
+
+
+      </div>
+
+
+
 
 
 
     </>
   );
+}
+
+
+
+function Slider() {
+  const ITEMS = [
+    { id: 1, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-7-1170x725.jpg' },
+    { id: 2, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-5-1170x725.jpg' },
+    { id: 3, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-6-1170x725.jpg' },
+  ]
+  const [items, setItems] = useState(ITEMS)
+
+  return (
+    <Carousel>
+      {items.map(item => <div key={item.id}>{item.img}</div>)}
+    </Carousel>
+  )
+
 }
 
 export default App;

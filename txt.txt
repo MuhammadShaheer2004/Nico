@@ -1,0 +1,11 @@
+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
+
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MuhammadShaheer2004/qwe123.git
+git push -u origin main
