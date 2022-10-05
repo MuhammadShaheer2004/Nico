@@ -3,12 +3,13 @@ import buyimg from "./assets/buyimg.jpg"
 import spring from "./assets/spring.png"
 import { useState } from "react";
 import bigImage from "./assets/home3-section-1-removebg-preview.png"
-import React, { Component } from 'react';
+//import React, { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
+import Card from "./carousel"
 
 
 
-function App() {
+function App() {  
   const [firstcounter, setcounter] = useState(30000)
   const [firsttitle, setTitle] = useState("World Arts")
 
@@ -20,6 +21,43 @@ function App() {
 
   const [fourthcounter, setfourthcounter] = useState(50000)
   const [fourthtitle, setfourthTitle] = useState("Unique Products")
+
+
+  const breakpoints =[
+    {width:400, itemsToShow:1},
+    {width:550, itemsToShow:2},
+    {width:768, itemsToShow:3},
+]
+
+const photos=[
+  {
+      name:"photo1",
+      url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-7-1170x725.jpg"
+  },
+  {
+      name:"photo2",
+      url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-5-1170x725.jpg"
+  },
+  {
+      name:"photo3",
+      url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-6-1170x725.jpg"
+  },
+  {
+    name:"photo1",
+    url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-7-1170x725.jpg"
+},
+{
+    name:"photo2",
+    url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-5-1170x725.jpg"
+},
+{
+    name:"photo3",
+    url: "https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-6-1170x725.jpg"
+}
+]
+
+
+  
 
 
 
@@ -953,14 +991,52 @@ function App() {
         <div className="browse-para"><p>The right way to help investors is by integrating all reward programs into the platform</p></div>
 
 
-        <div className="row">
+        <div className="row carousel-row">
 
-          <Slider />
+          <Carousel  breakPoints={breakpoints} >
+      
+          
+          {photos.map((item) => {
+    return(
+        <div className="carousel-card" >
+          
+          <img src={item.url} alt="" />
+         
+            
+            
+        </div>
+    )
+})}
+           
+
+          </Carousel>
+
+
         </div>
 
 
       </div>
 
+
+
+      <div className="container sec-7">
+        <div className="row get-in-touch">
+          <div className="col">
+            <h2 className="get">Get in</h2><h2 className="touch">Touch</h2>
+            </div>
+        </div>
+        <div className="row get-in-touch">
+          <div className="col">
+            <input type="email" name="email" id="email" placeholder="Enter your email address" />
+            <input type="text" name="text2" id="text2" placeholder="@" />
+          </div>
+          <div className="row cont">
+            <div className="contactdv">
+            <h1 className="contact">Contact Us</h1>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -972,20 +1048,6 @@ function App() {
 
 
 
-function Slider() {
-  const ITEMS = [
-    { id: 1, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-7-1170x725.jpg' },
-    { id: 2, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-5-1170x725.jpg' },
-    { id: 3, img: 'https://wgl-demo.net/nico/wp-content/uploads/2022/04/blog-s-6-1170x725.jpg' },
-  ]
-  const [items, setItems] = useState(ITEMS)
 
-  return (
-    <Carousel>
-      {items.map(item => <div key={item.id}>{item.img}</div>)}
-    </Carousel>
-  )
-
-}
 
 export default App;
