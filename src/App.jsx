@@ -2,10 +2,10 @@ import logo from "./assets/logo.png"
 import buyimg from "./assets/buyimg.jpg"
 import spring from "./assets/spring.png"
 import { useState } from "react";
-import bigImage from "./assets/home3-section-1-removebg-preview.png"
+// import bigImage from "./assets/home3-section-1-removebg-preview.png"
 //import React, { Component } from 'react';
-import Carousel from 'react-elastic-carousel';
-import Card from "./carousel"
+// import Carousel from 'react-elastic-carousel';
+import SimpleSlider from "./components/carousel"
 
 
 
@@ -993,7 +993,7 @@ const photos=[
 
         <div className="row carousel-row">
 
-          <Carousel  breakPoints={breakpoints} >
+          {/* <Carousel  breakPoints={breakpoints} >
       
           
           {photos.map((item) => {
@@ -1009,8 +1009,9 @@ const photos=[
 })}
            
 
-          </Carousel>
-
+          </Carousel> */}
+          
+          <SimpleSlider />
 
         </div>
 
@@ -1037,6 +1038,66 @@ const photos=[
           </div>
         </div>
       </div>
+
+       <div className="container-fluid sec-8">
+        <div className="row footer ">
+          <div className="col-lg-8 ">
+            <h1>Nico</h1>
+          </div>
+          <div className="col-9 icons-col">
+            <div className="col-3">
+              <div className="iconsCol">
+              <i class="fa-solid fa-envelope fonticon"></i>
+            </div>
+            <div className="icons-details">
+
+            <h6>nico_ico@mail.com</h6><h6>nico@mail.com</h6>
+            </div>
+            </div>
+            <div className="col-3">
+            <div className="iconsCol">
+              <i class="fa-brands fa-telegram fonticon"></i>
+            </div>
+            <div className="icons-details">
+
+            <h6>We are on Telegram</h6><h6>@NicoCryptoChannel</h6>
+            </div>
+            </div>
+              
+            <div className="col-3">
+            <div className="iconsCol">
+            <i class="fa-solid fa-phone fonticon"></i>
+
+            </div>
+            <div className="icons-details">
+
+            <h6>+1 800 123 456 789</h6><h6>+1 800 123 456 780</h6>
+            </div>
+              </div>
+          </div>
+          <div className="footer-divider"></div>
+          <div className="col-lg-8 footer-nav">
+            <ul>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">Home</a></li>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">pages</a></li>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">projects</a></li>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">blog</a></li>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">shop</a></li>
+              <li className="footer-nav-item"><a className="footer-nav-link" href="#">contact</a></li>
+            </ul>
+            <small className="copyright">Copyright © 2022 Nico byWebGeniusLab. All Rights Reserved</small>
+            <div className="social-icons">
+            <i class="fa-brands fa-telegram social "></i>
+            <i class="fa-brands fa-facebook-f social"></i>
+            <i class="fa-brands fa-twitter social"></i>
+            <i class="fa-brands fa-instagram social"></i>
+            <i class="fa-sharp fa-solid fa-bitcoin-sign social"></i>
+            </div>
+
+          </div>
+
+        </div>
+      </div> 
 
 
 
